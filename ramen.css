@@ -1,0 +1,18 @@
+header, nav, main, footer {display: block;}
+
+nav {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height: 105px;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
