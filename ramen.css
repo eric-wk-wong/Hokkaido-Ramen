@@ -1,52 +1,51 @@
-
+@charset "UTF-8";
 /* CSS Document */
 
-/* Customize the Navigation */
+h1 {text-align: center;}
 
-
-/* change  background color of the navigation bar */
-nav.navbar {background-color: #567534;}
-
-
-/* change text color of the navigation bar */
-.navbar ul.navbar-nav li.nav-item a.nav-link {
-	color: white;
-	font-size: 1.5em;
+.cta {
+	position: absolute;
+	left: 0;
+	top: 60%;
+	width: 100%;
+	text-align: center;
 }
 
-/* change navbar background on collapse */
-@media (max-width: 768px) {
-	nav.navbar {background: #2f6553;}
-
+.page1 { background-image: url(images/bird2.jpg);
+		 min-height: 1000px; 
+		 position: relative;
+		 background-attachment: fixed;
+		 background-position: center;
+		 background-repeat: no-repeat;
+		 background-size: cover;
 }
 
-/* Customize the Carousel */
-
-
-/* change the height of the carousel */
-
-.carousel {max-height: 800px; overflow: hidden;}
-
-/* Add background image to jumbotron */
-.jumbotron {
-	background-image: url(images/tulip.jpg);
-	background-size: cover;
-	backgroound-repeat: no-repeat;
-	height: 45rem;
+#page2 { color: white;
+	background-color: black;
+	padding: 100px;
+	
 }
 
-
-/* Change buttons color */
-
-.btn-primary {
-	color: white;
-	background-color: green;
-	border-color: green;
-
+#page3 { color: white;
+	background-color: black;
+	padding: 100px;
+	
 }
 
-.btn-primary:hover {
-	color: white;
-	background-color: red;
-	background-color: red;
+.page4 { background-image: url(images/kingfisher2.jpg);
+		 min-height: 1000px; 
+		 position: relative;
+		 background-attachment: fixed;
+		 background-position: center;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+}
+
+.page5 { background-image: url(images/kingfisher2.jpg);
+		 min-height: 1000px; 
+		 position: relative;
+		 background-attachment: fixed;
+		 background-position: center;
+		 background-repeat: no-repeat;
+		 background-size: cover;
 }
