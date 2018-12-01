@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+#header-wrapper {
+    width: 100%;
+    position: fixed;
+    z-index: 1000; }
+
+div {
+    display: block; }
+      
+ul {
+    list-style-type: none; }
+      
+li {
+    display: list-item; }
+
+* {
+    margin: 0;
+    padding: 0; }
+body {
+    font-family: arial, sans-serif;
