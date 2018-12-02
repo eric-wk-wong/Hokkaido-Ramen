@@ -22,8 +22,7 @@ nav.navbar {
 
 /* change navbar background on collapse */
 @media (max-width: 768px) {
- 
-	nav.navbar:{background-color: blue;}
+    nav.navbar:{background-color: #fff};
 }
 
 
