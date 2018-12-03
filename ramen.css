@@ -1,3 +1,80 @@
+html {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    background-color: white !important;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+}
+
+body a {
+    color: black;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+body .title {
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 1;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 25px;
+}
+
+.button {
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;
+    padding: 0;
+    display: block;
+    width: 400px;
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.button:hover {
+    color:black !important;
+    background: red;
+}
+
 nav.navbar {
     background-color: white;
     opacity: 0.85;
@@ -14,21 +91,16 @@ nav.navbar {
 body {
     margin-top: 120px;
     font-family: "Josefin Sans", sans-serif;
+    
 }
 
-@media screen and (max-width: 768px) body .description {
-    line-height: 170%;
+@media screen and (max-width: 768px) {
+
+    body .description {
+        line-height: 170%;
+    }
 }
 
-body .title {
-
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    color: black;
-    font-size: 25px;
-    font-weight: 1;
-}
 
 body .description {
 
@@ -41,21 +113,6 @@ body .description-images {
     width: 100%;
     position: relative;
     text-align: center;
-}
-
-body .button {
-    clear: both;
-    margin: auto;
-    padding-bottom: 30px;
-    text-align: center;
-    letter-spacing: 1px;
-    color: black;
-    padding: 0;
-    width: 400px;
-    font-size: 12px;
-    display: inline-block;
-    border: 1px solid black;
-    transition: .3s;
 }
 
 footer { 
