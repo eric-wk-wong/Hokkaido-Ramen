@@ -16,21 +16,31 @@ body {
     font-family: "Josefin Sans", sans-serif;
 }
 
+@media screen and (max-width: 768px) body .description {
+    line-height: 170%;
+}
+
 body .title {
 
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     text-align: center;
     color: black;
     font-size: 25px;
     font-weight: 1;
 }
 
-body .description, body .description-images {
+body .description {
 
     padding-left: 500px;
     padding-right: 500px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+body .description-images {
+    width: 100%;
+    position: relative;
+    text-align: center;
 }
 
 body .button {
