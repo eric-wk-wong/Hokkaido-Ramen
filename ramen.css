@@ -135,7 +135,10 @@ body .title-menu {
 nav.navbar {
     background-color: white;
     opacity: 0.85;
-    padding: 0 0;
+    padding-left:10px;
+    padding-top:0;
+    padding-bottom: 0;
+    margin:0;
 }
 
 .navbar ul.navbar-nav li.nav-item a.nav-link {
