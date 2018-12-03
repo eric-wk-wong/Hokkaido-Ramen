@@ -1,7 +1,7 @@
 header, nav, main, footer {display: block;}
 
 nav.navbar {
-    background-color:  #e6e6e6;
+    background-color: white;
     opacity: 0.9;
     height:85px;
 }
