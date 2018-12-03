@@ -159,6 +159,9 @@ body .description {
     background: url(images/vertical.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
 }
 
 footer { 
