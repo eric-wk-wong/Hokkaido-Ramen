@@ -1,15 +1,10 @@
 header, nav, main, footer {display: block;}
 
-/* Customize the Navigation */
-
-
-/* change  background color of the navigation bar */
 nav.navbar {
     background-color:  #e6e6e6;
     opacity: 0.9;
     height:85px;
 }
-
 
 /* change text color of the navigation bar */
 .navbar ul.navbar-nav li.nav-item a.nav-link {
@@ -27,42 +22,3 @@ body { padding-top: 85px; }
 @media (max-width: 768px) {
     nav.navbar:{background-color: #fff};
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*header, nav, main, footer {display: block;}
-
-nav {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    height: 105px;
-}
-
-nav a{
-    text-decoration: none;
-    display: block;
-    text-align: right;
-}
-
-nav ul{
-    list-style-type: none;
-}
-
-nav.navbar {background-color: white; }
-
-@media (max-width: 768px) {
- 
-	nav.navbar:{background-color: white;}*/
