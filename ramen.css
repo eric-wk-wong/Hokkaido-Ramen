@@ -50,6 +50,18 @@ body .title {
     padding-bottom: 25px;
 }
 
+body .title-menu {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 1;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 25px;
+}
+
 #about-wrapper {
     text-align: center;
 }
@@ -72,6 +84,21 @@ body .title {
     font-size: 12px;
     display: inline-block;
     border: 1px solid black;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.button-menu {
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    padding: 0;
+    display: block;
+    width: 400px;
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid white;
     margin-top: 25px;
     margin-bottom: 35px;
 }
@@ -126,6 +153,12 @@ body .description {
     padding-right: 500px;
     padding-bottom: 25px;
     text-align: left;
+}
+
+#menu-background {
+    background: url(images/vertical.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer { 
