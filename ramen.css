@@ -11,7 +11,7 @@ nav.navbar {
 
 .navbar ul.navbar-nav li.nav-item a:hover { color:red; }
 
-body { 
+body {
     margin-top: 120px;
     font-family: "Josefin Sans", sans-serif;
 }
