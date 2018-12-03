@@ -26,10 +26,14 @@ body .title {
     font-weight: 1;
 }
 
-body .description {
+body .description, body .description-images {
 
     padding-left: 500px;
     padding-right: 500px;
+}
+
+.test {
+    background: url(images/open.jpg) center top no-repeat;
 }
 
 footer { 
