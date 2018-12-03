@@ -168,8 +168,9 @@ body .description {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 500px;
     text-align: center;
+    padding: 100px;
 }
 
 footer { 
