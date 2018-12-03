@@ -75,6 +75,10 @@ body .title {
     background: red;
 }
 
+.description-images {
+    text-align: center;
+}
+
 nav.navbar {
     background-color: white;
     opacity: 0.85;
@@ -107,12 +111,6 @@ body .description {
     padding-left: 500px;
     padding-right: 500px;
     padding-bottom: 25px;
-}
-
-body .description-images {
-    width: 100%;
-    position: relative;
-    text-align: center;
 }
 
 footer { 
