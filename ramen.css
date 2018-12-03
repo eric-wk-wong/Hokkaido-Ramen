@@ -7,8 +7,9 @@ header, nav, main, footer {display: block;}
 nav.navbar {
     background-color:  #e6e6e6;
     opacity: 0.9;
-    height:90px;
+    height:85px;
 }
+
 
 /* change text color of the navigation bar */
 .navbar ul.navbar-nav li.nav-item a.nav-link {
@@ -18,7 +19,9 @@ nav.navbar {
     padding:20px;
 }
 
+.navbar ul.navbar-nav li.nav-item a:hover {color:red;}
 
+body { padding-top: 85px; }
 
 /* change navbar background on collapse */
 @media (max-width: 768px) {
