@@ -50,6 +50,17 @@ body .title {
     padding-bottom: 25px;
 }
 
+#about-wrapper {
+    text-align: center;
+}
+
+#menu-wrapper {
+    padding-top: 90px;
+    background: url(images/plate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .button {
     margin: 0 auto;
     text-align: center;
@@ -61,6 +72,8 @@ body .title {
     font-size: 12px;
     display: inline-block;
     border: 1px solid black;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 
 .button a {
@@ -111,6 +124,7 @@ body .description {
     padding-left: 500px;
     padding-right: 500px;
     padding-bottom: 25px;
+    text-align: left;
 }
 
 footer { 
