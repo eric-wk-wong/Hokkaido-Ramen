@@ -20,6 +20,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 div {
@@ -119,7 +120,7 @@ body .title-menu {
 }
 
 .button-menu:hover {
-    color: black !important;
+    color: white !important;
     background: red;
 }
 
