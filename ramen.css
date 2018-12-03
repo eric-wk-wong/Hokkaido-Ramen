@@ -13,4 +13,21 @@ nav.navbar {
 
 body { 
     margin-top: 120px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body .title {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 1;
+}
+
+body .description {
+
+    padding-left: 500px;
+    padding-right: 500px;
 }
