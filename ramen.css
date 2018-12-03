@@ -33,8 +33,19 @@ body .description, body .description-images {
     padding-bottom: 30px;
 }
 
-.test {
-    background: url(images/open.jpg) center top no-repeat;
+body .button {
+    clear: both;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;
+    padding: 0;
+    width: 400px;
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid black;
+    transition: .3s;
 }
 
 footer { 
