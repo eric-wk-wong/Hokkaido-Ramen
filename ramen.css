@@ -1,5 +1,5 @@
 html {
-    display: block;
+    display: border-box;
 }
 
 * {
@@ -113,8 +113,9 @@ body {
 
 @media screen and (max-width: 768px) {
 
-    body .description {
-        line-height: 170%;
+    .description-images {
+        margin-left: 200px;
+        margin-right: 200px;
     }
 }
 
