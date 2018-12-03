@@ -31,3 +31,10 @@ body .description {
     padding-left: 500px;
     padding-right: 500px;
 }
+
+footer { 
+
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
