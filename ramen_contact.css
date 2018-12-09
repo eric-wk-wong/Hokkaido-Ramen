@@ -58,7 +58,7 @@ h4 {
 }
 
 form { 
-    margin: -50px 400px 400px 400px;
+    margin: -50px 600px 0px 600px;
 }
 
 footer { 
@@ -72,6 +72,23 @@ footer {
 @media screen and (max-width: 768px) {
 
     #wrapper {
+        width: auto;
+        margin: 0;
+    }
 
+    form {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    #wrapper {
+        width: auto;
+        margin: 0;
+    }
+
+    form {
+        margin: 0;
     }
 }
