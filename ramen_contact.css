@@ -1,8 +1,12 @@
+/* CSS Document */
 @charset "utf-8";
 
 header, nav, footer { display: block }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
 
 body {
     font-family: "Josefin Sans", sans-serif;
@@ -31,10 +35,6 @@ li {
     display: list-item;
 }
 
-body a:hover {
-    text-decoration: none;
-}
-
 nav.navbar {
     background-color: white;
     opacity: 0.85;
@@ -52,6 +52,10 @@ nav.navbar {
 }
 
 .navbar ul.navbar-nav li.nav-item a:hover { color:red; }
+
+h4 {
+    text-align: center;
+}
 
 footer { 
 
