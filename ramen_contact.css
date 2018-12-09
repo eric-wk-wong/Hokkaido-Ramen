@@ -17,7 +17,6 @@ body {
 }
 
 #wrapper {
-
     background-color: white;
     margin: auto;
 }
@@ -55,6 +54,11 @@ nav.navbar {
 
 h4 {
     text-align: center;
+    margin: 150px;
+}
+
+form { 
+    margin: -50px 400px 400px 400px;
 }
 
 footer { 
