@@ -90,7 +90,7 @@ body .title-menu {
     margin-bottom: 35px;
 }
 
-.button-menu {
+.button-menu,.button-location {
     margin: 0 auto;
     text-align: center;
     letter-spacing: 1px;
@@ -122,7 +122,7 @@ body .title-menu {
     opacity: 0.85;
 }
 
-.button-menu:hover {
+.button-menu:hover, .button-location:hover {
     color: white !important;
     background: red;
     opacity: 0.85;
@@ -164,7 +164,7 @@ body .description {
     text-align: left;
 }
 
-#menu-background {
+#menu-background{
     background: url(images/vertical.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,6 +181,40 @@ footer {
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+
+.ramen-menu{
+    text-align: center;
+}
+
+h1 {
+    padding-top:40px;
+    margin-bottom:10px;
+}
+
+.menu-item-title {
+    padding-top:30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.menu-item-description {
+    font-size:13px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:5px;
+}
+
+#location-background{
+    background: url(images/location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    text-align: center;
+    padding: 100px;
+    margin-top:50px;
 }
 
 
