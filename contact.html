@@ -4,22 +4,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">	
-
     <!-- fotorama.css & fotorama.js. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-
     <title>Hokkaido Ramen: Contact</title>
     <link rel="stylesheet" href="ramen_contact.css">
 </head>
-
+<div class="contact-image">
+        <img src="images/background-design-top.png" height=150 width=100%>
+</div>
 <body>
     <div id="wrapper">
-
     <!-- Navigation -->
     <nav class= "navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo" width="100px" height="85px"></a>
@@ -46,40 +44,55 @@
         </ul>
         </div>
     </nav>
-
-    <h4>Contact Us</h4>
+    <h1 class="title2">CONTACT</h1>
+    <div id="contact-wrapper">
+        <div id="address-area">
+            <h6>Hokkaido Ramen Corporate Office</h6>
+            Hokkaido Ramen</br>
+            55 Lexington Ave 24th Street </br>
+            New York, NY 10010 </br>
+            <a href="tel:+16463121000">646-312-1000</a></br>
+            <a href="email:www.baruch.cuny.edu">HokkaidoRamen@ramen.com</a></br>
+            </br>
+            <img src="images/evening.jpg" height=190 width=280>
+        </div>
+        <div id="form-area">
+            <h6>Tell us about your experience!</h6>
             <form action="thanks.html" method="get">
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="firstName">First name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" pattern="[a-zA-Z]+" required>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" pattern="[a-zA-Z]+" required>	  
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="email">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
-            </div>
-            <div class="">
-                
-            </div>
-
-            <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
-          </form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                    <label for="firstName">First name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" pattern="[a-zA-Z]+" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                    <label for="lastName">Last name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" pattern="[a-zA-Z]+" required>	  
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comments</label>
+                    <textarea multiple class="form-control" id="comments" rows="3"></textarea></br>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
     </div>
 </body>
-
+</div>
+<div class="contact-image">
+<img src="images/background-design-bottom.png" height=75% width=100%>
+</div>
 <footer>
   <small>Copyright &copy; 2018 HOKKAIDO RAMEN. All Rights Reserved.</small>
 </footer>

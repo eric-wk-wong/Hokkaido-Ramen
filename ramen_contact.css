@@ -11,19 +11,26 @@ header, nav, footer { display: block }
 body {
     font-family: "Josefin Sans", sans-serif;
     -webkit-text-size-adjust: 100%;
-    background-color: white !important;
     color: black;
     margin-top: 100px;
 }
 
 #wrapper {
-    background-color: white;
-    margin: auto;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
-a, a:hover {
+#contact-wrapper {
+    margin-top: 25px;
+}
+
+a {
     text-decoration: none;
     color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: red;
 }
 
 ul {
@@ -52,13 +59,37 @@ nav.navbar {
 
 .navbar ul.navbar-nav li.nav-item a:hover { color:red; }
 
-h4 {
+body .title2 {
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
     text-align: center;
-    margin: 150px;
+    color: black;
+    font-size: 25px;
+    font-weight: 2;
+    padding-bottom: 25px;
 }
 
-form { 
-    margin: -50px 600px 0px 600px;
+#address-area {
+    float: left;
+}
+
+#form-area {
+    float: right;
+}
+
+#contact-background {
+    background: url(images/background-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.contact-image{
+    clear: both;
 }
 
 footer { 
@@ -67,6 +98,7 @@ footer {
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+    clear: both;
 }
 
 @media screen and (max-width: 768px) {
