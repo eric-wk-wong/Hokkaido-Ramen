@@ -256,6 +256,7 @@ td, th {
 	padding: 10px;
     border:none;
     text-align: left;
+    font-size: 15px;
 }
 
 td a:hover{color:red;}
@@ -276,7 +277,7 @@ strong{font-size: 25px;}
 
 .location-address2{
 float: right;
-padding-top:70px;
+padding-top:100px;
 }
 
 div h3,p,a {margin-right: 100px;}
