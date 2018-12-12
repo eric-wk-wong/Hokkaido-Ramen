@@ -218,7 +218,6 @@ h1 {
 }
 
 
-body #location{background-color:#D3D3D3;}
 
 table {
 	width: 100%;
@@ -248,6 +247,7 @@ strong{font-size: 30px;}
     float: right;
     margin-right: 50px;
     padding-top: 80px; 
+    padding-bottom: 50px;
 }
 
 div h3,p,a {margin-right: 100px;}
