@@ -293,6 +293,8 @@ img {
     padding:5px;
 }
 
+
+
 footer { 
 
     text-align: center;
@@ -300,6 +302,15 @@ footer {
     margin-top: 15px;
     margin-bottom: 15px;
     clear: both;
+}
+
+.colorchange {
+    filter: grayscale(100%);
+    transition: all 1s ease;
+}
+
+.colorchange:hover {
+    filter: grayscale(0%);
 }
 
 @media screen and (max-width: 768px) {
