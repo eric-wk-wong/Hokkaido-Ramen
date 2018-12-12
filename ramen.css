@@ -249,7 +249,9 @@ div h3,p,a {margin-right: 100px;}
 
 .section, .section2{
     float: left;
-    margin-left:100px; }
+    margin-left:100px; 
+    position: relative;
+}
 
 .fotorama-title {
 
