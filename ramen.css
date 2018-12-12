@@ -280,13 +280,21 @@ strong{font-size: 25px;}
 
 .location-address2{
 float: right;
-padding-top:100px;
+padding-top:80px;
 padding-right: 50px;
 }
 
 div h3,p,a {margin-right: 100px;}
 
-.section, .section2{
+.section{
+    float: left;
+    margin-left:200px; 
+    padding-top:50px;
+    position: relative;
+
+}
+
+.section2{
     float: left;
     margin-left:200px; 
     padding-top:50px;
