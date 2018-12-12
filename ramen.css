@@ -260,22 +260,19 @@ td, th {
 
 strong{font-size: 30px;}
 
-#location {
+.location {
     display: inline-block;
     padding: 10px;
 }
 
 .location-address{
     float: right;
-    margin-right: 50px;
-    padding-top: 50px; 
-    padding-bottom: 50px;
+    padding-top:50px;
 }
 
 .location-address2{
-    float:right;
-    margin-right: 50px;
-    padding-top:50px;
+float: right;
+padding-top:70px;
 }
 
 div h3,p,a {margin-right: 100px;}
