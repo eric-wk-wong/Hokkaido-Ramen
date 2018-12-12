@@ -162,6 +162,20 @@ nav.navbar {
     width: 100%;
 }
 
+#support-wrapper{
+    display: block;
+    background: url(images/nyc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+    margin-top: 50px;
+    max-width: 100%;
+}
+
 .ramen-menu{
     text-align: center;
 }
