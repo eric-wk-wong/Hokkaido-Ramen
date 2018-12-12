@@ -231,6 +231,12 @@ strong{font-size: 30px;}
     padding-bottom: 50px;
 }
 
+.location-address2{
+    float:right;
+    margin-right: 50px;
+    padding-top:50px;
+}
+
 div h3,p,a {margin-right: 100px;}
 
 .section, .section2{
