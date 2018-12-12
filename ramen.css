@@ -204,6 +204,14 @@ h1 {
 
 .chef {
     float: left;
+    margin: 75px;
+}
+
+.chef-description {
+
+    display: block;
+    margin: 75px;
+    clear: right;
 }
 
 footer { 
