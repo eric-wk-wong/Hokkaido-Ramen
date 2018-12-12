@@ -246,6 +246,10 @@ h1 {
     clear: left;
 }
 
+.location-container {
+    margin-bottom: 25px;
+}
+
 table {
 	width: 100%;
 	border: none;
