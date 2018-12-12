@@ -11,6 +11,11 @@ html {
     padding: 0;
 }
 
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -123,6 +128,7 @@ nav.navbar {
 }
 
 .navbar ul.navbar-nav li.nav-item a:hover { color:red; }
+
 
 
 #menu-wrapper{
@@ -392,6 +398,15 @@ footer {
         width: auto;
     }
 
+    nav {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a{text-align: center;}
+
     body {
         margin: 0 !important;
         padding: 0 !important;
@@ -411,7 +426,7 @@ footer {
         height: auto;
     }
 
-    .button-section {
+    .button-section{
 
         margin-top: 75px;
     }
@@ -462,6 +477,8 @@ footer {
         margin: 0;
         padding: 0;
     }
+
+    nav a{text-align: center;}
 
     body {
         margin: 0 !important;
