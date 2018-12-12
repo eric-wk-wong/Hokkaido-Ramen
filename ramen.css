@@ -409,6 +409,7 @@ footer {
         margin: 0 !important;
         padding: 0 !important;
         height: auto;
+        overflow-x: hidden;
     }
 
     .description {
@@ -464,10 +465,11 @@ footer {
     }
     .section,.section2{
         float: left;
-        margin-left: 0;
-        padding-left:0;
+        margin: 0;
+        padding:0;
         height: auto;
         width:auto;
+        box-sizing: border-box;
     }
 }
 
@@ -542,6 +544,9 @@ footer {
     .location-address,.location-address2, .section, .section2{
         display: block;
         float:left;
+        padding-left:0;
+        margin-left: 0;
+
     }
 
 
