@@ -3,14 +3,9 @@ html {
 }
 
 * {
+    display: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    -webkit-text-size-adjust: 100%;
-    background-color: white !important;
-    color: black;
 }
 
 a {
@@ -35,6 +30,15 @@ li {
     display: list-item;
 }
 
+body {
+    -webkit-text-size-adjust: 100%;
+    background-color: white !important;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}
+
 body a:hover {
     text-decoration: none;
 }
@@ -43,70 +47,55 @@ body .title {
 
     padding-top: 25px;
     padding-bottom: 25px;
-    text-align: center;
     color: black;
     font-size: 25px;
-    font-weight: 2;
+    font-weight: 100;
+}
+
+body .description {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.about-wrapper {
     padding-left: 500px;
     padding-right: 500px;
     padding-bottom: 25px;
-}
-
-body .title-menu {
-    padding-top: 25px;
-    padding-bottom: 25px;
     text-align: center;
-    color: black;
-    font-size: 25px;
-    font-weight: 2;
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 25px;
-}
-
-#about-wrapper {
-    text-align: center;
+    position: relative;
+    display: block;
 }
 
 #menu-wrapper {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     padding-top: 90px;
     background: url(images/plate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
 }
+
+/*
+padding-left: 500px;
+padding-right: 500px;
+padding-bottom: 25px;
+*/
 
 .button {
-    margin: 0 auto;
+    display: inline-block;
     text-align: center;
     letter-spacing: 1px;
-    color: black;
-    padding: 0;
-    display: block;
     width: 400px;
     font-size: 12px;
-    display: inline-block;
     border: 1px solid black;
-    margin-top: 25px;
-    margin-bottom: 35px;
-}
-
-.button-menu,.button-location {
-    margin: 0 auto;
-    text-align: center;
-    letter-spacing: 1px;
-    color: black;
-    padding: 0;
-    display: block;
-    width: 400px;
-    font-size: 12px;
-    display: inline-block;
-    border: 1px solid black;
-    margin-top: 25px;
-    margin-bottom: 35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: white;
     opacity: 0.85;
+    position: relative;
 }
 
 .button a {
@@ -120,16 +109,6 @@ body .title-menu {
     color:white !important;
     background: red;
     opacity: 0.85;
-}
-
-.button-menu:hover, .button-location:hover {
-    color: white !important;
-    background: red;
-    opacity: 0.85;
-}
-
-.description-images {
-    text-align: center;
 }
 
 nav.navbar {
@@ -150,39 +129,55 @@ nav.navbar {
 
 .navbar ul.navbar-nav li.nav-item a:hover { color:red; }
 
-body {
-    margin-top: 100px;
-    font-family: "Josefin Sans", sans-serif;
-    
-}
 
-body .description {
-
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 25px;
-    text-align: left;
-}
-
-#menu-background{
+#menu-wrapper{
+    display: block;
     background: url(images/vertical.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 250px;
     text-align: center;
     padding: 100px;
-    margin-top:50px;
+    margin-top: 50px;
+    width: 100%;
 }
 
-footer { 
-
+#location-wrapper{
+    display: block;
+    background: url(images/location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
     text-align: center;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 100px;
+    width: 100%;
 }
 
+#merchandise-wrapper{
+    display: block;
+    background: url(images/.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+}
+
+#contact-wrapper{
+    display: block;
+    background: url(images/.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+}
 
 .ramen-menu{
     text-align: center;
@@ -202,11 +197,10 @@ h1 {
 .menu-item-description {
     font-size:13px;
     font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
     padding-top:5px;
 }
 
-#location-background{
+#location-background {
     background: url(images/location.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,17 +211,29 @@ h1 {
     margin-top:50px;
 }
 
+.chef {
+    float: left;
+}
 
+footer { 
 
-@media screen and (max-width: 768px) {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
-    .description-images {
-        margin-left: 200px;
-        margin-right: 200px;
+@media screen and (max-width: 1440px) {
+
+    #about-wrapper {
+
+        margin: 0;
+        padding: 0;
     }
-    body.description {
-        position: relative;
-        float: none;
-        padding:100px;
+
+    #menu-wrapper {
+
+        margin: 0;
+        padding: 0;
     }
 }
