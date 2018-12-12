@@ -202,6 +202,10 @@ h1 {
 
 }
 
+#location{
+    background-color:color;
+}
+
 table {
 	width: 100%;
 	border:none;
@@ -236,15 +240,17 @@ strong{font-size: 30px;}
 div h3,p,a {margin-right: 100px;}
 
 .section{
-    float: left;
-    margin-left:100px; 
     padding-top:50px;
 }
 
 .section2{
+    padding-top:70px;
+}
+
+.section, .section2{
     float: left;
     margin-left:100px; 
-    padding-top:70px;
+    position: relative;
 }
 
 .fotorama-title {
@@ -278,6 +284,10 @@ h6 {
 
 .sec2 {
     margin-left: 25px;
+}
+
+img {
+    padding:5px;
 }
 
 footer { 
@@ -332,7 +342,9 @@ footer {
         height: auto;
         position: relative;
     }
+
 }
+
 
 @media screen and (max-width: 1024px) {
 
