@@ -203,6 +203,8 @@ h1 {
     text-align: left;
     float: left;
     clear: right;
+    margin-right: 150px;
+    padding-right: 100px;
 }
 
 .origin-picture {
