@@ -21,6 +21,7 @@ a:hover {
     color: inherit;
 }
 
+
 div {
     display: block;
 }
@@ -256,6 +257,10 @@ td, th {
     border:none;
     text-align: left;
 }
+
+td a:hover{color:red;}
+
+.sec1 a:hover{color:red;}
 
 strong{font-size: 25px;}
 
