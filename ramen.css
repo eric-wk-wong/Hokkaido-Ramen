@@ -274,14 +274,14 @@ strong{font-size: 25px;}
 
 .location-address{
     float: right;
-    padding-top:70px;
+    padding-top:80px;
     padding-right: 50px;
 }
 
 .location-address2{
-float: right;
-padding-top:80px;
-padding-right: 50px;
+    float: right;
+    padding-top:80px;
+    padding-right: 50px;
 }
 
 div h3,p,a {margin-right: 100px;}
