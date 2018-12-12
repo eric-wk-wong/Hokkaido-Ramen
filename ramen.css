@@ -410,7 +410,7 @@ footer {
         padding: 0 !important;
         height: auto;
         overflow-x: hidden;
-    }
+        }
 
     .description {
 
@@ -467,7 +467,6 @@ footer {
         float: left;
         margin: 0;
         padding:0;
-        height: auto;
         width:auto;
         box-sizing: border-box;
     }
@@ -546,6 +545,7 @@ footer {
         float:left;
         padding-left:0;
         margin-left: 0;
+        position: relative;
 
     }
 
