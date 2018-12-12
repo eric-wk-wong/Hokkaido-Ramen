@@ -61,8 +61,10 @@ body .description {
 }
 
 #about-wrapper {
-    padding-left: 500px;
-    padding-right: 500px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 250px;
+    padding-right: 250px;
     padding-bottom: 25px;
     text-align: center;
     position: relative;
@@ -131,6 +133,7 @@ nav.navbar {
     padding: 100px;
     width: 100%;
     margin-top: 50px;
+    max-width: 100%;
 }
 
 #location-wrapper{
@@ -199,6 +202,7 @@ h1 {
     text-align: center;
     padding: 100px;
     margin-top:50px;
+    max-width: 100%;
 }
 
 .chef {
@@ -215,13 +219,14 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-    .description {
-
+    body {
         margin: 0 !important;
         padding: 0 !important;
+        height: auto;
     }
 
-    body {
+    .description {
+
         margin: 0 !important;
         padding: 0 !important;
     }
@@ -229,13 +234,40 @@ footer {
     .description img {
 
         position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #button-section {
+
+        margin-top: 75px;
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
 
     body {
         margin: 0 !important;
         padding: 0 !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .description {
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .description img {
+
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #button-section {
+
+        margin-top: 75px;
     }
 }
