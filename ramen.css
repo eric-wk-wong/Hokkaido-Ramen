@@ -226,7 +226,8 @@ td, th {
     text-align: left;
 }
 
-caption{
+h5{
+    text-align: center;
     font-weight: bold;
 }
 
