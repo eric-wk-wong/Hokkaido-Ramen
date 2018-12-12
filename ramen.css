@@ -215,18 +215,27 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-    body {
+    .description {
 
-        margin: 0;
-        padding: 0;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .description img {
+
+        position: relative;
     }
 }
 
 @media screen and (max-width: 1440px) {
 
     body {
-        margin: 0;
-        padding: 0;
-
+        margin: 0 !important;
+        padding: 0 !important;
     }
 }
