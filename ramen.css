@@ -40,6 +40,7 @@ body {
     font-family: "Josefin Sans", sans-serif;
     margin-top: 100px;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 body a:hover {
@@ -53,7 +54,7 @@ body a:hover {
 
 body .title {
 
-    padding-top: 25px;
+    padding-top: 30px;
     padding-bottom: 25px;
     color: black;
     font-size: 25px;
@@ -196,7 +197,7 @@ h1 {
 
 .origin-container {
 
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .origin-description {
@@ -206,6 +207,7 @@ h1 {
     padding-right: 100px;
     text-align: left;
     font-size: 13px;
+    letter-spacing: 1px;
 }
 
 .origin-picture {
@@ -278,10 +280,13 @@ h6 {
 .sec1 {
     text-align: left;
     margin-right: 25px;
+    font-size: 13px;
+    
 }
 
 .sec2 {
     margin-left: 25px;
+    font-size: 13px;
 }
 
 img {
