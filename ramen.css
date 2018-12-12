@@ -58,7 +58,7 @@ body .description {
     margin-bottom: 50px;
 }
 
-.about-wrapper {
+#about-wrapper {
     padding-left: 500px;
     padding-right: 500px;
     padding-bottom: 25px;
@@ -67,18 +67,6 @@ body .description {
     display: block;
 }
 
-#menu-wrapper {
-    display: block;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    padding-top: 90px;
-    background: url(images/plate.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: relative;
-}
 
 /*
 padding-left: 500px;
@@ -139,8 +127,8 @@ nav.navbar {
     height: 250px;
     text-align: center;
     padding: 100px;
-    margin-top: 50px;
     width: 100%;
+    margin-top: 50px;
 }
 
 #location-wrapper{
@@ -223,17 +211,36 @@ footer {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 768px) {
 
     #about-wrapper {
 
         margin: 0;
         padding: 0;
+        position: relative;
     }
 
     #menu-wrapper {
 
         margin: 0;
         padding: 0;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    #about-wrapper {
+
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    #menu-wrapper {
+
+        margin: 0;
+        padding: 0;
+        position: relative;
     }
 }
