@@ -206,9 +206,6 @@ h1 {
     float: left;
 }
 
-th {
-    text-align: right; 
-  }
 
 table {
 	width: 100%;
@@ -231,6 +228,9 @@ h5{
     font-weight: bold;
 }
 
+.location-adress, .hours {float: right;}
+
+.section{float: left;}
 
 footer { 
 
