@@ -160,7 +160,7 @@ nav.navbar {
 
 #contact-wrapper{
     display: block;
-    background: url(images/.png);
+    background: url(images/together.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,6 +168,7 @@ nav.navbar {
     text-align: center;
     padding: 100px;
     width: 100%;
+    clear: left;
 }
 
 .ramen-menu{
@@ -219,6 +220,7 @@ h1 {
     padding-left: 100px;
     padding-right: 100px;
     text-align: left;
+    clear: right;
 }
 
 
