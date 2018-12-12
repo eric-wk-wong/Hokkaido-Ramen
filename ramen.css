@@ -59,7 +59,7 @@ body .title {
 
 body .description {
     display: block;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
@@ -204,6 +204,14 @@ h1 {
 
 .chef {
     float: left;
+    margin: 75px;
+}
+
+.chef-description {
+
+    display: block;
+    margin: 75px;
+    clear: right;
 }
 
 
