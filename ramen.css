@@ -206,16 +206,19 @@ h1 {
 .chef {
     float: left;
     margin-left: 100px;
-    margin-right: 100px;
-    padding-left: 50px;
+    margin-right: 25px;
+    padding-right: 50px;
 }
 
 .chef-description {
 
     display: block;
     font-size: 13px;
-    padding-left: 300px;
-    padding-right: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
 }
 
 
@@ -277,6 +280,7 @@ footer {
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+    clear: both;
 }
 
 @media screen and (max-width: 768px) {
