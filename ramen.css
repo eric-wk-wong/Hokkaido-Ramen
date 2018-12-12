@@ -263,10 +263,6 @@ div h3,p,a {margin-right: 100px;}
     float: left;
 }
 
-#form-area {
-    float: right;
-}
-
 h6 {
     font-weight: bold;
 }
@@ -275,8 +271,15 @@ h6 {
     clear: both;
 }
 
-.cta {
-    text-align: center;
+.sec1 {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 25px;
+}
+
+.sec2 {
+    margin-right: 200px;
+    margin-left: 25px;
 }
 
 footer { 
