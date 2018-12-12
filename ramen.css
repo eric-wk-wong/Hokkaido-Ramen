@@ -3,14 +3,9 @@ html {
 }
 
 * {
+    display: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    -webkit-text-size-adjust: 100%;
-    background-color: white !important;
-    color: black;
 }
 
 a {
@@ -35,78 +30,61 @@ li {
     display: list-item;
 }
 
+body {
+    -webkit-text-size-adjust: 100%;
+    background-color: white !important;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}
+
 body a:hover {
     text-decoration: none;
+}
+
+.fotorama {
+    display: block;
+    width: 100%;
 }
 
 body .title {
 
     padding-top: 25px;
     padding-bottom: 25px;
-    text-align: center;
     color: black;
     font-size: 25px;
-    font-weight: 2;
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 25px;
+    font-weight: 100;
 }
 
-body .title-menu {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    color: black;
-    font-size: 25px;
-    font-weight: 2;
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 25px;
-}
-
-#about-wrapper {
-    text-align: center;
-}
-
-#menu-wrapper {
-    padding-top: 90px;
-    background: url(images/plate.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+body .description {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .button {
-    margin: 0 auto;
+    display: inline-block;
     text-align: center;
     letter-spacing: 1px;
-    color: black;
-    padding: 0;
-    display: block;
     width: 400px;
     font-size: 12px;
-    display: inline-block;
     border: 1px solid black;
-    margin-top: 25px;
-    margin-bottom: 35px;
-}
-
-.button-menu,.button-location {
-    margin: 0 auto;
-    text-align: center;
-    letter-spacing: 1px;
-    color: black;
-    padding: 0;
-    display: block;
-    width: 400px;
-    font-size: 12px;
-    display: inline-block;
-    border: 1px solid black;
-    margin-top: 25px;
-    margin-bottom: 35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: white;
     opacity: 0.85;
+    position: relative;
+    max-height: 75%;
+}
+
+.pictures {
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 75px;
 }
 
 .button a {
@@ -120,16 +98,6 @@ body .title-menu {
     color:white !important;
     background: red;
     opacity: 0.85;
-}
-
-.button-menu:hover, .button-location:hover {
-    color: white !important;
-    background: red;
-    opacity: 0.85;
-}
-
-.description-images {
-    text-align: center;
 }
 
 nav.navbar {
@@ -150,39 +118,56 @@ nav.navbar {
 
 .navbar ul.navbar-nav li.nav-item a:hover { color:red; }
 
-body {
-    margin-top: 100px;
-    font-family: "Josefin Sans", sans-serif;
-    
-}
 
-body .description {
-
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 25px;
-    text-align: left;
-}
-
-#menu-background{
+#menu-wrapper{
+    display: block;
     background: url(images/vertical.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 250px;
     text-align: center;
     padding: 100px;
-    margin-top:50px;
+    width: 100%;
+    margin-top: 50px;
+    max-width: 100%;
 }
 
-footer { 
-
+#location-wrapper{
+    display: block;
+    background: url(images/location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
     text-align: center;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 100px;
+    width: 100%;
 }
 
+#merchandise-wrapper{
+    display: block;
+    background: url(images/.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+}
+
+#contact-wrapper{
+    display: block;
+    background: url(images/.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+}
 
 .ramen-menu{
     text-align: center;
@@ -202,11 +187,10 @@ h1 {
 .menu-item-description {
     font-size:13px;
     font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
     padding-top:5px;
 }
 
-#location-background{
+#location-background {
     background: url(images/location.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,19 +199,111 @@ h1 {
     text-align: center;
     padding: 100px;
     margin-top:50px;
+    max-width: 100%;
+}
+
+.chef {
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+}
+
+.chef-description {
+
+    display: block;
+    font-size: 13px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border:none;
+	margin-bottom:1em; 
+	margin-left: auto;
+    margin-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th {
+	padding: 10px;
+    border:none;
+    text-align: left;
+}
+
+h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+.location-address{float: right;}
+
+.section{
+    float: left;
+    margin-left:100px; 
+}
+
+footer { 
+
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 @media screen and (max-width: 768px) {
 
-    .description-images {
-        margin-left: 200px;
-        margin-right: 200px;
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: auto;
     }
-    body.description {
+
+    .description {
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .description img {
+
         position: relative;
-        float: none;
-        padding:100px;
+        width: 100%;
+        height: auto;
+    }
+
+    #button-section {
+
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: auto;
+    }
+
+    .description {
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .description img {
+
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #button-section {
+
+        margin-top: 75px;
     }
 }
