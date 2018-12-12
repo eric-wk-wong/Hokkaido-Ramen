@@ -277,12 +277,10 @@ h6 {
 
 .sec1 {
     text-align: left;
-    margin-left: 200px;
     margin-right: 25px;
 }
 
 .sec2 {
-    margin-right: 200px;
     margin-left: 25px;
 }
 
@@ -330,6 +328,14 @@ footer {
     form {
         margin: 0;
     }
+
+    .sec1, .sec2 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -366,5 +372,13 @@ footer {
 
     form {
         margin: 0;
+    }
+
+    .sec1, .sec2  {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        position: relative;
     }
 }
