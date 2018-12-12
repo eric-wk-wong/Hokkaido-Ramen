@@ -516,7 +516,7 @@ footer {
     }
 
     .section, .section2, .location-address,.location-address2{
-        width:100%;
         float: left;
+        position: relative;
     }
 }
