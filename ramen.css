@@ -206,9 +206,9 @@ h1 {
 
 .chef {
     float: left;
-    margin-left: 100px;
-    margin-right: 25px;
-    padding-right: 50px;
+    margin-left: 50px;
+    padding-right: 25px;
+    padding-bottom: 25px;
 }
 
 .chef-description {
@@ -218,12 +218,16 @@ h1 {
     margin-left: 300px;
     margin-right: 300px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 250px;
     text-align: left;
-    clear: right;
+
 }
 
+.restaurant {
 
+    float: right;
+
+}
 
 table {
 	width: 100%;
@@ -310,6 +314,12 @@ footer {
 
         margin-top: 75px;
     }
+
+    .chef-description {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -336,5 +346,11 @@ footer {
     .button-section {
 
         margin-top: 75px;
+    }
+
+    .chef-description {
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 }
