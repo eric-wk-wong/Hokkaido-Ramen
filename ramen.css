@@ -1,3 +1,6 @@
+/* CSS Document */
+@charset "utf-8";
+
 html {
     display: border-box;
 }
@@ -158,19 +161,6 @@ nav.navbar {
     width: 100%;
 }
 
-#contact-wrapper{
-    display: block;
-    background: url(images/together.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    text-align: center;
-    padding: 100px;
-    width: 100%;
-    clear: left;
-}
-
 .ramen-menu{
     text-align: center;
 }
@@ -263,6 +253,32 @@ div h3,p,a {margin-right: 100px;}
     color: white;
 }
 
+#contact-background {
+    background: url(images/background-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#address-area {
+    float: left;
+}
+
+#form-area {
+    float: right;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.contact-image{
+    clear: both;
+}
+
+.cta {
+    text-align: center;
+}
+
 footer { 
 
     text-align: center;
@@ -303,6 +319,10 @@ footer {
         padding: 0;
         width: 100%;
     }
+
+    form {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -335,5 +355,9 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
+    }
+
+    form {
+        margin: 0;
     }
 }
