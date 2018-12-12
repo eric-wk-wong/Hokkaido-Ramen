@@ -54,8 +54,50 @@
 
 <!--Content-->
 <body>
+  
+  <!--Carousel Wrapper-->
+<div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+      <li data-target="#video-carousel-example" data-slide-to="1"></li>
+      <li data-target="#video-carousel-example" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <video class="video-fluid" autoplay loop muted>
+          <source src="videos/chand.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video class="video-fluid" autoplay loop muted>
+          <source src="videos/gift.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video class="video-fluid" autoplay loop muted>
+          <source src="videos/neon.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--Carousel Wrapper-->
+
     <div class="fotorama" data-height="800" data-fit="cover" data-autoplay="true" data-transition="crossfade">
-      <img src="images/shibuya.jpg">
+      <img src="video.jpg">
       <img src="images/">
       <img src="images/">
     </div>
@@ -67,14 +109,14 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="panel panel-primary">
-            <div class="panel-heading">SOLD OUT!</div>
+            <div class="panel-heading"></div>
             <div class="panel-body"><img src="images/shirt1.png" class="colorchange" style="width:100%" alt="Image"></div>
             <div class="panel-footer"></div>
           </div>
         </div>
         <div class="col-sm-4"> 
           <div class="panel panel-danger">
-            <div class="panel-heading">CHRISTMAS SALE!</div>
+            <div class="panel-heading"></div>
             <div class="panel-body"><img src="images/shirt2.png" class="colorchange" style="width:100%" alt="Image"></div>
             <div class="panel-footer"></div>
           </div>
@@ -82,7 +124,7 @@
         <div class="col-sm-4"> 
           <div class="panel panel-success">
             <div class="panel-heading"></div>
-            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"/></div>
+            <div class="panel-body"><img src="images/hoodie.png" class="img-responsive" style="width:100%" alt="Image"/></div>
             <div class="panel-footer"></div>
           </div>
         </div>
