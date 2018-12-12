@@ -200,11 +200,12 @@ h1 {
 }
 
 .origin-description {
-    text-align: left;
     float: left;
     clear: right;
     margin-right: 150px;
     padding-right: 100px;
+    text-align: left;
+    font-size: 13px;
 }
 
 .origin-picture {
@@ -214,7 +215,7 @@ h1 {
 
 table {
 	width: 100%;
-	border:none;
+	border: none;
 	margin-bottom:1em; 
     margin-right: 200px;
     padding-top: 50px;
@@ -254,12 +255,6 @@ div h3,p,a {margin-right: 100px;}
     margin-left:100px; 
     padding-top:50px;
     position: relative;
-}
-
-.fotorama-title {
-
-    font-size: 80px;
-    color: white;
 }
 
 #contact-background {
@@ -311,12 +306,11 @@ footer {
     filter: grayscale(0%);
 }
 
-.video-carousel {
-
-    width: 100%;
-}
-
 @media screen and (max-width: 768px) {
+
+    #wrapper {
+        width: auto;
+    }
 
     body {
         margin: 0 !important;
@@ -342,12 +336,6 @@ footer {
         margin-top: 75px;
     }
 
-    .chef-description {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-
     form {
         margin: 0;
     }
@@ -360,17 +348,36 @@ footer {
         position: relative;
     }
 
-    .origin-container {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        width: 100%;
+    .origin-picture {
+        float: left;
+        position: relative;
     }
 
+    .origin-description {
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+
+    .origin-container {
+        display: inline-block;
+        max-height: 1375px;
+    }
 }
 
 
 @media screen and (max-width: 1024px) {
+
+    #wrapper {
+        width: auto;
+    }
+
+    nav {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 
     body {
         margin: 0 !important;
@@ -408,10 +415,19 @@ footer {
         position: relative;
     }
 
-    .origin-container {
+    .origin-picture {
+        float: left;
+        position: relative;
+    }
+
+    .origin-description {
         margin: 0;
         padding: 0;
-        text-align: center;
-        width: 100%;
+        float: left;
+    }
+
+    .origin-container {
+        display: inline-block;
+        max-height: 1375px;
     }
 }
