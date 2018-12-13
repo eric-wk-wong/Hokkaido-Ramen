@@ -2,6 +2,6 @@
 - HOME: Eric/Lesley
 - ABOUT: Eric
 - MENU: Lesley
-- LOCATION: Lesley
+- LOCATION: Lesley/Eric
 - MERCHANDISE: Eric
 - ABOUT: Eric
