@@ -1,7 +1,7 @@
 # Hokkaido Ramen
-- HOME: Eric/Lesley
-- ABOUT: Eric
-- MENU: Lesley
-- LOCATION: Lesley/Eric
-- MERCHANDISE: Eric
-- ABOUT: Eric
+
+**CIS 3630 - 	Principles of Web Design**
+
+**Authors**:
+1. Eric Wong
+2. Jinmei Li
